@@ -9,6 +9,19 @@ html{
     font-size:62.5%;
     margin:2% 5%;
 }
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    border:none;
+    color: white;
+    border-radius:15px;
+    padding: 0.5% 1%; 
+    margin:2%;
+    margin-left: 15%;
+    width: 10%;
+    text-align:center;    
+}
+
 body{
     font-family: Roboto Mono;
     font-size: 1.6rem;
@@ -35,19 +48,7 @@ header{
     padding: 0% 0% 0% 30%;
     font-weight:bold;
 }
-nav a{
-    display:inline-block;
-    text-decoration:none;
-    padding:1% 1%;
-    text-align:center;
-    border-radius:15%;
-    width: 10%;
-    height: 50px;
-    letter-spacing:3px;
-    margin:1% 10%;
-    border:none;
-    color: white; 
-}
+
 
 h1{
     font-size:5rem;
@@ -80,24 +81,16 @@ h1{
     padding: 1% 2%;
     }
 
-#camp {
-    width: 40%;
-}
-#flame {
+#camp, #flame {
     width: 40%;
 }
 
-.truck{
+.truck, .fire{
     margin: 0% 15%;
     text-align: center;
     padding: 3% 25%;
     font-size: 1rem;
 }
-.fire{
-    margin: 0% 15%;
-    text-align: center;
-    padding: 3% 25%;
-    font-size: 1rem;
 }
 #landscape{
     height: 50vh;
