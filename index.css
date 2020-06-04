@@ -1,0 +1,108 @@
+* {
+box-sizing:border box;
+padding: 0;
+margin:0;
+max-width:100%;
+*/border: 1px solid grey;*/
+    }
+html{
+    font-size:62.5%;
+    margin:2% 5%;
+}
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    border:none;
+    color: white;
+    border-radius:15px;
+    padding: 0.5% 1%; 
+    margin:2%;
+    margin-left: 15%;
+    width: 10%;
+    text-align:center;    
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+body{
+    font-family: Roboto Mono;
+    font-size: 1.6rem;
+}
+header{
+    display:inline-block;
+    text-align:center;
+    padding:2% 8%;
+ }
+ #p2{
+    margin:0% 15%;
+ }
+ .header{
+    margin:2% auto;
+ }
+#mountain{
+    border-radius:1000px;
+    border:none;
+    width: 25%;
+    float: left;
+}
+.subtitle {
+    margin: 2% 10%;
+    padding: 0% 0% 0% 30%;
+    font-weight:bold;
+}
+
+
+h1{
+    font-size:5rem;
+    font-family:Chelsea Market;
+}
+
+.sectionTwo{
+    text-align:center;
+    display:inline-block;
+    margin:0 auto;
+           
+}
+.plan{
+    background-color: #FF764E;
+}
+
+.learn{
+    background-color:#5ED3EB;
+}
+
+.involved{
+    background-color:#FFCD69;
+}
+
+.main{
+    background-color:#DDB9A3;
+    color:white;
+    margin: 0% 5%;
+    text-align: center;
+    padding: 1% 2%;
+    }
+
+#camp, #flame {
+    width: 40%;
+}
+
+.truck, .fire{
+    margin: 0% 15%;
+    text-align: center;
+    padding: 3% 25%;
+    font-size: 1rem;
+}
+
+footer img{
+    object-fit: cover;
+    width: 100vw;
+    height: 50vh;
+    object-position: 50% 0;
+}
+
+footer{
+    background-color:#F9E7DC;
+    }  
